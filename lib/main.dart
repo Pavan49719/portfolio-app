@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           Image(
             image: NetworkImage(
-                'https://imgr.search.brave.com/TCBGwO3lmLdTxGwTtTHUJ4BGL6HqKi0LPxgD-abWIuY/fit/600/900/ce/1/aHR0cHM6Ly9pbWFn/ZXMuZmluZWFydGFt/ZXJpY2EuY29tL2lt/YWdlcy9hcnR3b3Jr/aW1hZ2VzL21lZGl1/bWxhcmdlLzIvYWdl/ZC13b29kZW4tYmFj/a2dyb3VuZC13aXRo/LXZlcnRpY2FsLWhh/bmlzLmpwZw'),
+                'https://static.vecteezy.com/system/resources/previews/000/681/060/original/vertical-abstract-tech-background.jpg'),
             fit: BoxFit.cover,
             height: 700,
           ),
@@ -56,9 +56,18 @@ class _MyHomePageState extends State<MyHomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <button1>[
-                      button1(str: 'tel:+91 9359875192',icon: Icons.call,),
-                      button1(str: 'sms:+919359875192?body=Hi Pavan',icon: Icons.sms,),
-                      button1(str: 'https://wa.me/+919359875192',icon: EvaIcons.github,),
+                      button1(
+                        str: 'tel:+91 9359875192',
+                        icon: Icons.call,
+                      ),
+                      button1(
+                        str: 'sms:+919359875192?body=Hi Pavan',
+                        icon: Icons.sms,
+                      ),
+                      button1(
+                        str: 'https://wa.me/+919359875192',
+                        icon: EvaIcons.github,
+                      ),
                     ],
                   ),
                   ElevatedButton(
@@ -137,8 +146,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
-
-
-
-
